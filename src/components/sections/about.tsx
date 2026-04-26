@@ -35,7 +35,7 @@ export function About() {
                 <motion.div
                   whileHover={{ y: -4 }}
                   transition={{ type: "spring", stiffness: 280, damping: 20 }}
-                  className="group relative h-full overflow-hidden rounded-2xl border border-line/60 bg-card/40 p-5 backdrop-blur transition-colors hover:border-accent/60 dark:border-line-dark/60 dark:bg-card-dark/40 dark:hover:border-accent-dark/60"
+                  className="group relative h-full overflow-hidden rounded-2xl border border-line/60 bg-card/80 p-5 backdrop-blur transition-colors hover:border-accent/60 dark:border-line-dark/60 dark:bg-card-dark/40 dark:hover:border-accent-dark/60"
                 >
                   <div className="pointer-events-none absolute -right-12 -top-12 h-32 w-32 rounded-full bg-accent/10 blur-2xl transition-opacity group-hover:opacity-100 dark:bg-accent-dark/15" />
                   <p className="font-display text-3xl font-semibold tracking-tight md:text-4xl">

@@ -35,7 +35,7 @@ export function Skills() {
       </div>
 
       <div className="mt-12 overflow-hidden border-y border-line/60 py-5 dark:border-line-dark/60">
-        <div className="marquee-track flex items-center gap-6 whitespace-nowrap font-display text-3xl font-medium tracking-tight text-muted/70 md:text-4xl dark:text-muted-dark/70">
+        <div className="marquee-track flex items-center gap-6 whitespace-nowrap font-display text-3xl font-medium tracking-tight text-ink/80 md:text-4xl dark:text-muted-dark/80">
           {[...ribbon, ...ribbon].map((t, i) => (
             <span key={i} className="flex items-center gap-6">
               <span className="transition-colors hover:text-accent dark:hover:text-accent-dark">
@@ -51,7 +51,7 @@ export function Skills() {
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {skillGroups.map((g, gi) => (
             <Reveal key={g.title} delay={gi * 0.06}>
-              <div className="group h-full rounded-2xl border border-line/60 bg-card/40 p-6 backdrop-blur transition-colors hover:border-accent/60 dark:border-line-dark/60 dark:bg-card-dark/40 dark:hover:border-accent-dark/60">
+              <div className="group h-full rounded-2xl border border-line/60 bg-card/80 p-6 backdrop-blur transition-colors hover:border-accent/60 dark:border-line-dark/60 dark:bg-card-dark/40 dark:hover:border-accent-dark/60">
                 <h3 className="font-display text-sm font-semibold uppercase tracking-[0.18em] text-accent dark:text-accent-dark">
                   {g.title}
                 </h3>
@@ -63,7 +63,7 @@ export function Skills() {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, amount: 0.4 }}
                       transition={{ duration: 0.32, delay: si * 0.025 }}
-                      className="rounded-full border border-line/70 bg-bg/60 px-3 py-1 text-xs text-ink transition-colors hover:border-accent hover:text-accent dark:border-line-dark/70 dark:bg-bg-dark/60 dark:text-ink-dark dark:hover:border-accent-dark dark:hover:text-accent-dark"
+                      className="rounded-full border border-line/70 bg-bg/80 px-3 py-1 text-xs text-ink transition-colors hover:border-accent hover:text-accent dark:border-line-dark/70 dark:bg-bg-dark/60 dark:text-ink-dark dark:hover:border-accent-dark dark:hover:text-accent-dark"
                     >
                       {s}
                     </motion.li>

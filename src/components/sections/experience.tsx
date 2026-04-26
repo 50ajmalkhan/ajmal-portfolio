@@ -42,7 +42,7 @@ export function Experience() {
                   className="absolute -left-[27px] top-2 h-3 w-3 rounded-full border-2 border-bg bg-accent shadow-[0_0_0_4px_rgba(217,119,87,0.18)] dark:border-bg-dark dark:bg-accent-dark md:-left-[33px]"
                 />
                 <Reveal delay={i * 0.05}>
-                  <div className="rounded-2xl border border-line/60 bg-card/40 p-6 backdrop-blur dark:border-line-dark/60 dark:bg-card-dark/40">
+                  <div className="rounded-2xl border border-line/60 bg-card/80 p-6 backdrop-blur dark:border-line-dark/60 dark:bg-card-dark/40">
                     <div className="flex flex-wrap items-baseline justify-between gap-2">
                       <h3 className="font-display text-xl font-semibold tracking-tight md:text-2xl">
                         {e.company}
@@ -73,7 +73,7 @@ export function Experience() {
         </div>
 
         <Reveal>
-          <div className="mt-14 rounded-2xl border border-line/60 bg-card/40 p-6 backdrop-blur dark:border-line-dark/60 dark:bg-card-dark/40">
+          <div className="mt-14 rounded-2xl border border-line/60 bg-card/80 p-6 backdrop-blur dark:border-line-dark/60 dark:bg-card-dark/40">
             <p className="font-mono text-xs uppercase tracking-[0.18em] text-accent dark:text-accent-dark">
               Education
             </p>

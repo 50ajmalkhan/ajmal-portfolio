@@ -50,7 +50,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="inline-flex items-center gap-2 self-start rounded-full border border-line/60 bg-card/40 px-3 py-1.5 text-xs font-mono uppercase tracking-[0.18em] text-muted backdrop-blur dark:border-line-dark/60 dark:bg-card-dark/40 dark:text-muted-dark"
+          className="inline-flex items-center gap-2 self-start rounded-full border border-line/60 bg-card/80 px-3 py-1.5 text-xs font-mono uppercase tracking-[0.18em] text-muted backdrop-blur dark:border-line-dark/60 dark:bg-card-dark/40 dark:text-muted-dark"
         >
           <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-emerald-500">
             <span className="absolute inset-0 animate-ping rounded-full bg-emerald-500/60" />
@@ -103,7 +103,7 @@ export function Hero() {
           <MagneticButton
             href={personal.resumeUrl}
             download
-            className="inline-flex items-center gap-2 rounded-full border border-line/80 bg-card/50 px-6 py-3 text-sm font-medium text-ink backdrop-blur transition-colors hover:border-accent hover:text-accent dark:border-line-dark dark:bg-card-dark/50 dark:text-ink-dark dark:hover:border-accent-dark dark:hover:text-accent-dark"
+            className="inline-flex items-center gap-2 rounded-full border border-line/80 bg-card/85 px-6 py-3 text-sm font-medium text-ink backdrop-blur transition-colors hover:border-accent hover:text-accent dark:border-line-dark dark:bg-card-dark/50 dark:text-ink-dark dark:hover:border-accent-dark dark:hover:text-accent-dark"
           >
             <Download size={15} />
             Download CV

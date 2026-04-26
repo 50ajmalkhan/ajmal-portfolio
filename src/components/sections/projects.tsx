@@ -38,7 +38,7 @@ function ProjectCard({ p, onOpen, index }: { p: Project; onOpen: () => void; ind
         className="group relative w-full text-left will-change-transform"
         aria-label={`Open project details — ${p.title}`}
       >
-        <div className="relative h-full overflow-hidden rounded-2xl border border-line/60 bg-card/50 p-7 backdrop-blur transition-colors duration-300 group-hover:border-accent/60 dark:border-line-dark/60 dark:bg-card-dark/50 dark:group-hover:border-accent-dark/60">
+        <div className="relative h-full overflow-hidden rounded-2xl border border-line/60 bg-card/85 p-7 backdrop-blur transition-colors duration-300 group-hover:border-accent/60 dark:border-line-dark/60 dark:bg-card-dark/50 dark:group-hover:border-accent-dark/60">
           <motion.div
             aria-hidden
             style={{
@@ -81,13 +81,13 @@ function ProjectCard({ p, onOpen, index }: { p: Project; onOpen: () => void; ind
             {p.tech.slice(0, 6).map((t) => (
               <span
                 key={t}
-                className="rounded-full border border-line/60 bg-bg/40 px-2.5 py-0.5 text-[11px] text-ink/80 dark:border-line-dark/60 dark:bg-bg-dark/40 dark:text-ink-dark/80"
+                className="rounded-full border border-line bg-bg/80 px-2.5 py-0.5 text-[11px] text-ink dark:border-line-dark/60 dark:bg-bg-dark/40 dark:text-ink-dark/85"
               >
                 {t}
               </span>
             ))}
             {p.tech.length > 6 && (
-              <span className="rounded-full border border-line/60 bg-bg/40 px-2.5 py-0.5 text-[11px] text-muted dark:border-line-dark/60 dark:bg-bg-dark/40 dark:text-muted-dark">
+              <span className="rounded-full border border-line/60 bg-bg/70 px-2.5 py-0.5 text-[11px] text-muted dark:border-line-dark/60 dark:bg-bg-dark/40 dark:text-muted-dark">
                 +{p.tech.length - 6}
               </span>
             )}
@@ -179,7 +179,7 @@ function ProjectModal({ p, onClose }: { p: Project; onClose: () => void }) {
           {p.tech.map((t) => (
             <span
               key={t}
-              className="rounded-full border border-line/60 bg-card/40 px-3 py-1 text-xs text-ink/90 dark:border-line-dark/60 dark:bg-card-dark/40 dark:text-ink-dark/90"
+              className="rounded-full border border-line bg-card/70 px-3 py-1 text-xs text-ink dark:border-line-dark/60 dark:bg-card-dark/40 dark:text-ink-dark/90"
             >
               {t}
             </span>

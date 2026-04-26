@@ -18,7 +18,7 @@ export function Contact() {
   return (
     <section id="contact" className="relative scroll-mt-20 py-24 md:py-32">
       <div className="mx-auto max-w-content px-5 md:px-8">
-        <div className="relative isolate overflow-hidden rounded-3xl border border-line/60 bg-card/40 px-6 py-14 backdrop-blur dark:border-line-dark/60 dark:bg-card-dark/40 md:px-12 md:py-20">
+        <div className="relative isolate overflow-hidden rounded-3xl border border-line/60 bg-card/80 px-6 py-14 backdrop-blur dark:border-line-dark/60 dark:bg-card-dark/40 md:px-12 md:py-20">
           <div className="absolute inset-0 -z-10 opacity-50" aria-hidden>
             <div className="aurora" />
           </div>
@@ -43,7 +43,7 @@ export function Contact() {
                 href={personal.linkedin}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-line/80 bg-bg/60 px-7 py-3.5 text-sm font-medium text-ink backdrop-blur transition-colors hover:border-accent hover:text-accent dark:border-line-dark dark:bg-bg-dark/60 dark:text-ink-dark dark:hover:border-accent-dark dark:hover:text-accent-dark"
+                className="inline-flex items-center gap-2 rounded-full border border-line/80 bg-bg/80 px-7 py-3.5 text-sm font-medium text-ink backdrop-blur transition-colors hover:border-accent hover:text-accent dark:border-line-dark dark:bg-bg-dark/60 dark:text-ink-dark dark:hover:border-accent-dark dark:hover:text-accent-dark"
               >
                 <Linkedin size={16} />
                 Connect on LinkedIn
@@ -60,7 +60,7 @@ export function Contact() {
                   rel={it.href.startsWith("http") ? "noreferrer" : undefined}
                   whileHover={{ y: -3 }}
                   transition={{ type: "spring", stiffness: 280, damping: 20 }}
-                  className="group flex items-center gap-4 rounded-2xl border border-line/60 bg-bg/50 p-4 backdrop-blur transition-colors hover:border-accent/60 dark:border-line-dark/60 dark:bg-bg-dark/50 dark:hover:border-accent-dark/60"
+                  className="group flex items-center gap-4 rounded-2xl border border-line/60 bg-bg/75 p-4 backdrop-blur transition-colors hover:border-accent/60 dark:border-line-dark/60 dark:bg-bg-dark/50 dark:hover:border-accent-dark/60"
                 >
                   <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-accent/10 text-accent dark:bg-accent-dark/10 dark:text-accent-dark">
                     <it.icon size={16} />

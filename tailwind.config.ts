@@ -19,11 +19,11 @@ const config: Config = {
           dark: "#E89878",
         },
         muted: {
-          DEFAULT: "#6B6B6B",
+          DEFAULT: "#4B4B4B",
           dark: "#A3A3A3",
         },
         line: {
-          DEFAULT: "#E5E5E0",
+          DEFAULT: "#D4D4D0",
           dark: "#1F1F1F",
         },
         card: {
